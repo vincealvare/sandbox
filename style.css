@@ -1,0 +1,75 @@
+body {
+    background:#3B3A36;
+    font-family: sans-serif;
+}
+
+a, p, ul, li, span {
+    color:#3B3A36;
+}
+
+img {
+    width:100%;
+}
+
+h1 {
+    background:#E9ECE5;
+    color:#B3C2BF;
+    padding:5px 20px;
+    margin:0px;
+}
+
+h2 {
+    color:#3B3A36;
+}
+
+h2 span.background {
+    display:block;
+    background:#3B3A36;
+    color:#E9ECE5;
+    padding:4px 4px 0px;
+}
+
+.btn {
+    padding-bottom:3px;
+    border-radius:45px;
+    width:90px;
+    height:90px;
+    background:url('img/californiagames2.jpg') no-repeat center;
+}
+
+#main-menu {
+    background:#B3C2BF;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    padding:15px 0px;
+}
+
+#main-menu li {
+    display:inline-block;
+    text-decoration:none;
+    padding:0px;
+}
+
+#main-menu li a {
+    color:#AAA;
+    background:#EEE;
+    padding:5px 15px;
+}
+
+#main-menu li a.active {
+    border:solid 5px #555;
+}
+
+#main-menu li:first-child a {
+    margin-left:10px;
+}
+
+#main-menu li:first-child a.active {
+    margin-left:0px;
+}
+
+.inner-wrapper {
+    background:#E9ECE5;
+    padding:15px;
+}
