@@ -29,12 +29,16 @@ h2 span.background {
     padding:4px 4px 0px;
 }
 
-.btn {
-    padding-bottom:3px;
-    border-radius:45px;
-    width:90px;
-    height:90px;
-    background:url('img/californiagames2.jpg') no-repeat center;
+h3 {
+    border-bottom:solid 2px #3B3A36;
+}
+
+h4 {
+    padding-top:10px;
+}
+
+#footer-main {
+    padding:50px;
 }
 
 #main-menu {
@@ -72,4 +76,76 @@ h2 span.background {
 .inner-wrapper {
     background:#E9ECE5;
     padding:15px;
+}
+
+
+/* FADE IN */
+@keyframes fade-in {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.fade-in:hover {
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+/* FADE IN WITH DELAY */
+@keyframes fade-in-delay {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.fade-in-delay:hover {
+    animation-name: fade-in-delay;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+/* FADE IN EASE-IN */
+@keyframes fade-in-ease-in {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.fade-in-ease-in:hover {
+    animation-name: fade-in-ease-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+/* FADE IN EASE-OUT */
+@keyframes fade-in-ease-out {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.fade-in-ease-out:hover {
+    animation-name: fade-in-ease-out;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+
+/* FADE IN EASE-IN */
+@keyframes fade-in-ease {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.fade-in-ease:hover {
+    animation-name: fade-in-ease;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+/* FADE IN EASE-OUT */
+@keyframes fade-in-ease-in-out {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.fade-in-ease-in-out:hover {
+    animation-name: fade-in-ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 }

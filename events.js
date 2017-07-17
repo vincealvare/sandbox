@@ -1,22 +1,21 @@
-/**
- * Created by Vince on 10/12/16.
- */
 
+
+/* ACTIVE MENU ITEM && PAGE FADE-IN WITH JQUERY ANIMATION */
 $(document).ready(function() {
-    $("#jquery, #css3").hide();
-    $("#css3").fadeIn(1200);
+    $("#js-page, #css-page").hide();
+    $("#css-page").fadeIn(1200);
     $("#main-menu li.css a").addClass("active");
 
     $("#main-menu li.css a").on("click", function() {
-        $("#jquery").hide();
-        $("#css3").fadeIn(1200);
+        $("#js-page").hide();
+        $("#css-page").fadeIn(1200);
         $(this).addClass("active");
         $("#main-menu li.js a").removeClass("active");
     });
 
     $("#main-menu li.js a").on("click", function() {
-        $("#css3").hide();
-        $("#jquery").fadeIn(1200);
+        $("#css-page").hide();
+        $("#js-page").fadeIn(1200);
         $(this).addClass("active");
         $("#main-menu li.css a").removeClass("active");
     });
